@@ -1,0 +1,89 @@
+
+
+#Criando a função soma com x e y como argumentos
+def sum(x, y):
+    # Retornar é útil quando você não precisa imprimir o resultado
+    # função, mas precisa usá-lo em seu código. 
+  return x+y
+
+res = sum(42, 7)
+print(res) 
+
+def foo(x, y):
+  if x >= y:
+    return x
+  else:
+    return y
+
+x = foo(4, 5)
+print(x)
+
+
+def add_numbers(x, y):
+  total = x + y
+  return total
+  print("This won't be printed")
+
+print(add_numbers(4, 5))
+
+def print_numbers():
+  print(1)
+  print(2)
+  return
+  print(4)
+  print(6)
+  
+print_numbers()
+
+
+def double(a, b):
+   return [a*3, b*3]
+
+x = double(6, 9)
+print(x)
+
+def calc(x, y):
+   return [x+y, x*y]
+
+res = calc(3, 4)
+print(res[1])
+
+
+# def area(x, y):
+#   #your code goes here
+#   return x* y
+
+# w = int(input())
+# h = int(input())
+
+# #call the function
+# print(area(w,h))
+
+def sum(x):
+    res = 0
+    for i in range(x):
+        res+=i
+    return res
+    
+print(sum(3))
+
+x = 5
+#x += 1
+x += 2 #increment
+print(x)
+
+def print_nums(x):
+  for i in range(x):
+    print(i)
+    return
+print_nums(10)
+
+def func(x):
+  res = 0
+  for i in range(x):
+     res += i
+  return res
+
+print(func(3))
+
+https://www.sololearn.com/certificates/course/en/25633667/1172/landscape/png
