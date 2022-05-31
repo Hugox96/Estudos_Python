@@ -23,9 +23,39 @@ else:
 for key, value in meu_dicionario.items():
     print(key,value) 
 
-#Percorrendo as chaves
+#Percorrendo as chaves como por exemplo Nome
 for key in meu_dicionario.keys():
     print(key)
-#Percorrendo os valores
+#Percorrendo os valores como por exemplo Hugo 
 for value in meu_dicionario.values():
     print(value)              
+
+#Criando uma cópia do um dicionário, mas é importante se atentar para não criar modificar o dicionário original
+#meu_dicionario_copy = meu_dicionario
+
+"""Incluindo a chave Profissao e o valor Desenvolvedor
+meu_dicionario_copy["Profissao:"] = "desenvolvedor"
+
+#Na hora de printar, ambos serão modificados: O original e a cópia
+print(meu_dicionario_copy)
+print(meu_dicionario)"""
+
+#Para que isso não ocorre, fazemos:
+meu_dicionario_copy = meu_dicionario.copy()
+#Adicionamos uma nova chave e valor apenas para a cópida
+meu_dicionario_copy["Profissao:"] = "desenvolvedor"
+#Será modificado
+print(meu_dicionario_copy)
+#Não será modificado
+print(meu_dicionario)
+
+#Criando novos dicionários
+Dados_Notas = {"Nome": "Lucas", "Nota1": 10, "Nota2": 9, "Nota3": 5}
+#Printando sem as média e situação
+print(Dados_Notas)
+Dados_Media = {"Media:": 8, "Situação:": "Aprovado"}
+#Atualizando os dados da média e situação no dicionário das notas
+Dados_Notas.update(Dados_Media)
+#Printando com a média e situação
+print(Dados_Notas)
+
