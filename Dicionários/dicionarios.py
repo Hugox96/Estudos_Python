@@ -59,3 +59,14 @@ Dados_Notas.update(Dados_Media)
 #Printando com a média e situação
 print(Dados_Notas)
 
+#Delentando chaves e valores
+
+#Podemos deletar utilizando o metodo pop e especificando a chave
+Dados_Notas.pop("Nota3")
+#Vai printar sem a Nota 3
+print(Dados_Notas)
+
+#Podemos também dele o último item do dicionário com o pop item
+Dados_Notas.popitem()
+#Vai deletar a chave situação
+print(Dados_Notas)
