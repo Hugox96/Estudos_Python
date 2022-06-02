@@ -1,6 +1,6 @@
 
-def procurar_alunos(aluno,pesquisa):
-    for i in aluno:
-        chave = aluno[i]
+def procurar_alunos(alunos,pesquisa):
+    for i in alunos:
+        chave = alunos[i]
         if chave["nome"] == pesquisa:
-            print("Aluno encontrado ")
+            print("Aluno encontrado \n", chave)
