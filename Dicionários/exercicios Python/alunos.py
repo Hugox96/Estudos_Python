@@ -32,12 +32,12 @@ escolha = ""
 while escolha != "sair":
         if menu == "1":
             nome = input("Nome: ")
-            print(pesquisa_aluno.procurar_alunos(nome, alunos))
-            escolha = input("Digite sair para finalizar: ")
+            print(pesquisa_aluno.procurar_alunos(alunos,nome))
+            # escolha = input("Digite sair para finalizar: ")
 
         elif menu == "2":
             print(alunos)
-            escolha = input("Digite sair para finalizar: ")
- 
+            # escolha = input("Digite sair para finalizar: ")
+        escolha = input("Digite sair para finalizar: ")
 
         

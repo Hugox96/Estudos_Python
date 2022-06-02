@@ -14,9 +14,9 @@ def cadAlunos():
     obs = observacao.obs_aluno()
     return ({
          "nome":Nome,
-         "n1": Nota1,
-         "n2": Nota2,
-         "n3": Nota3,
+         "nota1": Nota1,
+         "nota2": Nota2,
+         "nota3": Nota3,
          "media": med,
          "Situação":situacao_aluno,
          "Observaçao":obs
