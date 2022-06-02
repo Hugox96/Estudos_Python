@@ -1,6 +1,7 @@
 import media 
 import situacao
 import observacao
+import pesquisa_aluno
 def cadAlunos():
     nome = input("Insira o nome do Aluno: ")
     n1 = int(input("Digite a 1º Nota: "))

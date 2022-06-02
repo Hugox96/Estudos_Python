@@ -26,6 +26,7 @@ for key, value in meu_dicionario.items():
 #Percorrendo as chaves como por exemplo Nome
 for key in meu_dicionario.keys():
     print(key)
+
 #Percorrendo os valores como por exemplo Hugo 
 for value in meu_dicionario.values():
     print(value)              
