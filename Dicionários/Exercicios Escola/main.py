@@ -1,4 +1,4 @@
-from tkinter import W
+
 import cadastroAlunos
 import pesquisa_aluno
 
